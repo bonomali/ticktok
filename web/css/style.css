@@ -1,0 +1,7 @@
+input {
+  width: 350px;
+}
+
+.box {
+  min-height: 50px;
+}
