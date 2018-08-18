@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Market Place</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<section>
+  <!--for demo wrap-->
+  <h1>Ticket(s) Market Place</h1>
+  <h3>Buy</h3>
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <th>Quantity</th>
+          <th>Category</th>
+          <th>Price(RM)</th>
+          <th>Buy</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr>
+          <td>2</td>
+          <td>VIP </td>
+          <td>400</td>
+          <td><button class="mdl-button mdl-js-button mdl-button--primary">
+            Buy
+          </button></td>
+        </tr>
+        <tr id="child">
+          <td><font color="red">1</font></td>
+          <td><font color="red">Normal</font></td>
+          <td><font color="red">100</font></td>
+          <td><button class="mdl-button mdl-js-button mdl-button--primary" onclick="openInNewTab()">
+            <font color="red">Buy</font>
+          </button></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Front Stage</td>
+          <td>300</td>
+          <td><button class="mdl-button mdl-js-button mdl-button--primary">
+            Buy
+          </button></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Normal </td>
+          <td>100</td>
+          <td><button class="mdl-button mdl-js-button mdl-button--primary">
+            Buy
+          </button></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>VIP</td>
+          <td>800</td>
+          <td><button class="mdl-button mdl-js-button mdl-button--primary">
+            Buy
+          </button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Sell (Tickets I Own)</h3>
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <th>Quantity</th>
+          <th>Category</th>
+          <th>Price(RM)</th>
+          <th>Sell</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody id="addHere">
+        <tr>
+          <td>2</td>
+          <td>VIP </td>
+          <td>400</td>
+          <td><!-- Primary-colored flat button -->
+            <button class="mdl-button mdl-js-button mdl-button--primary">
+              Sell
+            </button></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Normal</td>
+            <td>100</td>
+            <td>
+              <button class="mdl-button mdl-js-button mdl-button--primary">
+              Sell
+            </button></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Front Stage</td>
+            <td>300</td>
+            <td><button class="mdl-button mdl-js-button mdl-button--primary">
+              Sell
+            </button></td>
+          </tr>
+
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+  <!-- follow me template -->
+  <div class="made-with-love">
+    Made with
+    <i>♥</i> by
+    <a target="_blank" href="https://codepen.io/nikhil8krishnan">Nikhil Krishnan</a>
+  </div>
