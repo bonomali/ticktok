@@ -70,22 +70,22 @@
 
                     <div class="countdown flex flex-wrap justify-content-between" data-date="2018/06/06">
                         <div class="countdown-holder">
-                            <div class="dday"></div>
+                            <div class="dday" id="dday">49</div>
                             <label>Days</label>
                         </div><!-- .countdown-holder -->
 
                         <div class="countdown-holder">
-                            <div class="dhour"></div>
+                            <div class="dhour"  id="dhour">13</div>
                             <label>Hours</label>
                         </div><!-- .countdown-holder -->
 
                         <div class="countdown-holder">
-                            <div class="dmin"></div>
+                            <div class="dmin" id="dmin">45</div>
                             <label>Minutes</label>
                         </div><!-- .countdown-holder -->
 
                         <div class="countdown-holder">
-                            <div class="dsec"></div>
+                            <div class="dsec"  id="dsec">4</div>
                             <label>Seconds</label>
                         </div><!-- .countdown-holder -->
                     </div><!-- .countdown -->
@@ -507,6 +507,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
     <script type='text/javascript' src='js/circle-progress.min.js'></script>
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
-    <script type='text/javascript' src='js/custom.js'></script>
+    <!--<script type='text/javascript' src='js/custom.js'></script>-->
+    <script type='text/javascript'>
+      document.getELementById("dday").innerHTML ="49";
+      $("#dhour").html("13");
+      $("#dmin").html("25");
+      $("#dsec").html("4");
+    </script>
 </body>
 </html>
