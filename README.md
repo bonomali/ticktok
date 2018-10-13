@@ -1,5 +1,5 @@
 # ticktok
-An blockchain ticket storage solution.
+A blockchain ticket storage solution.
 Pitched at dappathon Malaysia 2018  
 Run deploy.html with Ganache setup. After configuration, run index.html.  
 
